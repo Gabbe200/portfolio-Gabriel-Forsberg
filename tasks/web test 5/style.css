@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+header {
+    color: aliceblue;
+    
+}
+.primery-navigation {
+    display: flex;
+    list-style: none;
+    font-size: 1.125rem;
+    gap: 1rem;
+}
+
+nav {
+    display:flex;
+    background-color: rgb(255, 36, 200);
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap:2rem;
+    padding-inline: 1rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    
+    object-fit: cover;
+
+    font-style: italic;
+    grid-column: 2;
+    
+}
+article {
+    width: 70%;
+    margin-inline: auto;
+}
+
+
+.grid-container{
+    display: grid;
+    background-color: aliceblue;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.flex-layout {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 35px;
+    height: 37px;
+}
+section{
+    margin: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: above;
+    height: 100vh;
+}
+
+.nav-link:visited{
+    color: rgb(191, 255, 102);
+}
+
+.nav-link {
+   list-style: none;
+   transition: 250ms ease-in-out;
+}
+
+.nav-link:hover{
+    color: rgb(0, 204, 255);
+}
+main {
+    margin: 1rem;
+    justify-content: left;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+footer{
+    color:aliceblue;
+}

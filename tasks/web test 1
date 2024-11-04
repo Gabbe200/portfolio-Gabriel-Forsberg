@@ -1,0 +1,18 @@
+<!DOCTYPE html> <!-- definerar verision HTML5 -->
+<html lang="en"> <!-- html = huvudelimentet / lang =språk på sidan -->
+<head> <!-- sidhuvud och det är metadata till sidan-->
+    <meta charset="UTF-8"> <!-- teckenuppsättning -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- för att anpassa mobilversion-->
+    <title>Document</title> <!-- titel på webbsida -->
+</head>
+<body>
+    <h1>cool rubrik</h1>
+    <p>jag hoppas att min rubrik funkar</strong>bara en gång </strong><p
+    
+        <h2> <p>cool under rubrik</p></h2>
+        <h3> <p> om det inte fungerar är jag orolig</p></h3>
+        <h4> <p> den här borde vara under h2 taggen</p></h4>
+        <h5> <p> h4 funkar förhonppnings vis också </p></h5>
+
+</body>
+</html>
